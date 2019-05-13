@@ -1,0 +1,14 @@
+.circular-reveal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100vh;
+  height: 100vh;
+  &__inner {
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

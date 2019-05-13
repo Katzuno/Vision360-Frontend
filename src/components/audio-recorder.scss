@@ -1,0 +1,8 @@
+.audio-recorder {
+  &__fab {
+    position: fixed;
+    z-index: 9;
+    right: 2rem;
+    bottom: 1rem;
+  }
+}
